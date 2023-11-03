@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensaje</title>
+  <style>
+    /* Estilos para centrar el mensaje en la página */
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      font-size: 1.2em;
+      line-height: 1.6em;
+      background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+      text-align: center;
+      color: #4a4a4a;
+      font-family: Arial, Helvetica, sans-serif;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+    }
+
+    /* Estilo para las imágenes de fondo de corazones */
+    body::before {
+      content: '';
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>');
+      background-repeat: no-repeat;
+      background-size: 100px;
+      background-position: 10% 20%, 70% 60%;
+      opacity: 0.5;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    p {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    p:first-child {
+      margin-bottom: 10px;
+    }
+
+    /* Estilo para el botón */
+    a.boton-romantico {
+      display: inline-block;
+      background-color: #ff9a9e;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    a.boton-romantico:hover {
+      background-color: #ff6a6e;
+    }
+  </style>
+</head>
+<body>
+  <!-- Mensaje en HTML -->
+  <p>Buenos dias Princesa</p>
+  <p>Quiero pedirte disculpas desde lo más profundo de mi corazón. Sé que recientemente no he sido la mejor versión de mí mismo y quiero que sepas que estoy comprometido a cambiar y a ser alguien en quien puedas confiar y sentirte orgullosa.</p>
+  <p>Entiendo que mis acciones pueden haber causado tristeza y confusión, y quiero asegurarte que estoy trabajando para mejorar y asegurarme de que nuestras experiencias juntos sean siempre felices y positivas.</p>
+  <p>Te amo y valoro nuestra relación más que a nada. Gracias por tomarte el tiempo de leer esto.</p>
+  <p>Con todo mi cariño,<br>Jean</p>
+  <!-- Botón que redirige al video -->
+  <a href="https://youtu.be/B6vwo7pZKow?si=6W9QQw5ZWXdzkDpU" class="boton-romantico" target="_blank">Presionar Aquí</a>
+</body>
+</html>
